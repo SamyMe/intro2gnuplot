@@ -2,13 +2,16 @@ set key reverse Left outside
 set term png
 
 set xlabel "Numbers ->"
-set ylabel "Execution time ->"
+set ylabel "Execution time (seconds)->"
 set title "Comparaisin of 4 Algorithmes"
 
-set offset 1,1,1,1
+set xtics rotate
+
+set offset 1,1,0.01,0.01
 
 set output "graphs5.png"
 
-plot for [i=1:4] 'Algo'.i using 1:2 title 'Algo'.i with l
+plot for [i=1:4] 'Algo'.i using 1:2 title 'Algo'.i with lines
 
-
+# The variable "i" takes the values 1 to 4 . So a translation of this would be:
+# plot 'Algo1' using 1:2 title 'Algo1' with lines, 'Algo2' using 1:2 title 'Algo2' with lines, 'Algo3' using 1:2 title 'Algo3' with lines, 'Algo4' using 1:2 title 'Algo4' with lines,

@@ -15,7 +15,6 @@ The following example shows the variation in temperature during the first week o
 ```
 
 Let's write a script that draws a graph for this data:
-First we define ...
 
 [Script1](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Script1):
 

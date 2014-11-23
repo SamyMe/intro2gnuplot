@@ -12,5 +12,6 @@ set offset 1,1,10,10
 
 plot datafile using 1:2 title 
 
-# <graphname> , <graphtitle> , <xtitle> , <ytitle> , <datafile> and <> are the name of variables that should be specified when calling this script file
+#Adding to the plot function another set of arguments. The two sets are structured the same, and separated by a coma.
+
 

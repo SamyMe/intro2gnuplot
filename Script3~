@@ -2,7 +2,7 @@ set key reverse Left outside
 
 set term png 
 
-set xtics rotate #we are going to rotate the "X" to get a vertical display
+set xtics rotate #we are going to rotate the "X" axis with 90°
 
 set output "Graph3.png"
 

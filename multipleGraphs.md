@@ -13,6 +13,7 @@ So our file would look like this:
 ```
 
 Only one line is going to be modified in our script file:
+
 [Script2](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Script2):
 
 ``` sh
