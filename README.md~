@@ -5,9 +5,6 @@ Exemples and scripts templates can be downloaded.
 ###Is Gnuplot what you are searching for?
 Gnuplot is a simple-to-use command-line driven graphing utility.
 
-
-----------------------------------
-
 ﻿﻿﻿This is an introduction to the basic usage of thle graphics command line tool Gnuplot, in a unix-like environement (linux, mac).
 
 We generate the graphs by the following command (arguments are facultatif):
