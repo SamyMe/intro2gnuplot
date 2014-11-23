@@ -1,0 +1,14 @@
+set key reverse Left outside
+set term png
+
+set xlabel "Numbers ->"
+set ylabel "Execution time ->"
+set title "Comparaisin of 4 Algorithmes"
+
+set offset 1,1,1,1
+
+set output "graphs5.png"
+
+plot for [i=1:4] 'Algo'.i using 1:2 title 'Algo'.i with l
+
+
