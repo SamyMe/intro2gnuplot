@@ -56,7 +56,7 @@ set key reverse Left outside
 
 set term png 
 
-set output graphname
+set output pngname
 
 set title graphtitle
 set xlabel xtitle 					
@@ -66,7 +66,7 @@ set offset 1,1,10,10
 
 plot datafile using 1:2 title 
 
-# <graphname> , <graphtitle> , <xtitle> , <ytitle> , <datafile> and <> are the name of variables that should be specified when calling this script file
+# <pngname> , <graphtitle> , <xtitle> , <ytitle> , <datafile> and <> are the name of variables that should be specified when calling this script file
 
 ```
 
