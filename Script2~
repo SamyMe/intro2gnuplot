@@ -12,6 +12,5 @@ set offset 1,1,10,10
 
 plot 'Data2' using 1:2 title 'Week 1' with lines, 'Data2' using 1:3 title 'Week 2' with lines
 
-#Adding to the plot function another set of arguments. The two sets are structured the same, and separated by a coma.
 
 

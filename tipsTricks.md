@@ -1,6 +1,6 @@
 ###3- Tips and trics:
 
-1. Rotate data in axis for lisibility:
+1. **Rotate data in axis for lisibility:**
 Lets take the example of a population growth (million person) during the years. Data is as follows:
 
 [Data3](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Data3):
@@ -22,7 +22,7 @@ The result will be as follows:
 
 ![Graph3](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Graph3.png)
 
-2. Using variables:
+2. **Using variables:**
 We can generalise a script to use it with different data files, by the use of variables.
 Lets use the following data files [Data1] and [Data3](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Data1] and [Data3).
 The script will look like this:
@@ -36,7 +36,7 @@ The result will be as follows:
 ![Graph4](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Graph4.png)
 
 
-3. Using the *for* loop:
+3. **Using the *for* loop:**
 
 When we have a repeated task to do, wecan use a loop to helps us.
 For example, we want to draw a graph representing the time taken by 6 different algorithms to check whether a number is prime or not.
