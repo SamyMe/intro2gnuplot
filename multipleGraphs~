@@ -1,0 +1,20 @@
+
+###2- Multiple graphs
+
+Lets take the same example. But this time, we are also measuring the "humidité" level.
+So our file would look like this:
+
+[Data2](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Data2):
+```text
+1 29 64
+2 31 62
+3 30 69
+4 28 67
+(...)
+```
+
+Only one line is going to be modified in our script file:
+[Script2](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Script2):
+
+The result will be as follows:
+![Graph2](https://raw.githubusercontent.com/SamyMe/intro2gnuplot/master/Graph2.png)
