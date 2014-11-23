@@ -1,4 +1,4 @@
-###What is it about?
+###What is this about?
 This is a simple introduction to the basic usage of gnuplot command line tool.
 Exemples data ad scripts can be downloaded.
 
