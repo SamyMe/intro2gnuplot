@@ -12,6 +12,7 @@ set ylabel "Temperature ->" 				#Title of "Y" axis
 set offset 1,1,10,10 #Notice that the 
 
 plot 'Data1' using 1:2 title 'temperature changes' with lines 
+
 #ploting function: ploting datas from "Data1" file, using the 1st and 2nd row. Naming the graph "temperature changes", using straight lines.
 
 #We can change line to one of these values: 'lines', 'points', 'linespoints', 'dots', 'impulses', 'yerrorbars', 'xerrorbars', 'xyerrorbars', 'steps', 'fs'

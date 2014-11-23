@@ -2,7 +2,7 @@ set key reverse Left outside #Graph's key is displayed outside the graph. Aligne
 
 set term png #The result will be in png form
 
-set output "graphs1.png" #Graph's name
+set output "Graph1.png" #Graph's name
 
 set title "Daily temperature - July 2014 - week1 "	#Graphs title
 set xlabel "Days ->" 					#Title of "X" axis
